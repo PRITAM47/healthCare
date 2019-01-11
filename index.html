@@ -19,11 +19,52 @@
 
     <!-- -------------CSS-------------------  -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <style type="text/css">
+      /* Extra small devices (phones, 600px and down) */
+      @media only screen and (max-width: 400px) {
+        .navbar {
+          z-index: 200;
+        }
+        .second-section-content img {
+          height: 150px;
+          padding-bottom: 20px;
+        }
+
+        .mid-section{
+          height: 220px;
+        }
+
+        .mid-section p {
+          font-size: 1rem;
+        }
+
+        .mid-section div {
+          font-size: 18px;
+          margin-top: 10px;
+          padding: 20px;
+        }
+
+        .mid-section div span {
+          font-size: 1.4rem;
+          color: #fff;
+          font-weight: bold
+        }
+        .mid-section div button {
+          display: block;
+          margin: 2px 100px;
+          background: #24a0de;
+          font-weight: bold;
+          
+        }
+
+      }
+    </style>
   </head>
   <body>
     <!-- ----------------HEADER SECTION-----------------  -->
     <div class="main-header">
-      <nav class="navbar navbar-expand-md ">
+      <nav class="navbar navbar-expand-md test">
         <header class="container header">
           <a class="my-brand" href="index.html">HEALTH CARE</a>
           <button
@@ -130,7 +171,7 @@
           </section>
 
     <section class="second-section row">
-      <div class="second-section-content col-lg-3">
+      <div class="second-section-content col-lg-3 col-12">
         <img src="images/pic1.png" alt="pic1" />
         <div class="content">
           <h5>Therapeutic Supports</h5>
@@ -140,7 +181,7 @@
           </p>
         </div>
       </div>
-      <div class="second-section-content col-sm-3">
+      <div class="second-section-content col-lg-3 col-12">
         <img src="images/pic2.png" alt="pic2" />
         <div class="content">
           <h5>Plan Management</h5>
@@ -150,7 +191,7 @@
           </p>
         </div>
       </div>
-      <div class="second-section-content col-sm-3">
+      <div class="second-section-content col-lg-3 col-12">
         <img src="images/pic3.png" alt="pic3" />
         <div class="content">
           <h5>Community Nursing Care</h5>
@@ -160,7 +201,7 @@
           </p>
         </div>
       </div>
-      <div class="second-section-content col-sm-3">
+      <div class="second-section-content col-lg-3 col-12">
         <img src="images/pic4.png" alt="pic4" />
         <div class="content">
           <h5>Acommodation Tenancy</h5>
@@ -301,29 +342,32 @@
         <div class="underline"></div>
 
         <div class="container fifth-section-content">
-          <div class="frame">
-              <div class="face-image-section1">
-
+          <div class="row">
+              <div class="frame col-12">
+                  <div class="face-image-section1">
+    
+                  </div>
+                  <h2>JOHN DOE</h2>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A dolorem explicabo dolorum at beatae fugit reiciendis numquam nostrum, cupiditate debitis!</p>
               </div>
-              <h2>JOHN DOE</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A dolorem explicabo dolorum at beatae fugit reiciendis numquam nostrum, cupiditate debitis!</p>
+              <div class="frame col-12">
+                  <div class="face-image-section2">
+    
+                  </div>
+                  <h2>JANE DOE</h2>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A dolorem explicabo dolorum at beatae fugit reiciendis numquam nostrum, cupiditate debitis!</p>
+              
+              </div>
+              <div class="frame col-12">
+                  <div class="face-image-section3">
+    
+                  </div>
+                  <h2>JOHN WICK</h2>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A dolorem explicabo dolorum at beatae fugit reiciendis numquam nostrum, cupiditate debitis!</p>
+              
+              </div>
           </div>
-          <div class="frame">
-              <div class="face-image-section2">
-
-              </div>
-              <h2>JANE DOE</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A dolorem explicabo dolorum at beatae fugit reiciendis numquam nostrum, cupiditate debitis!</p>
           
-          </div>
-          <div class="frame">
-              <div class="face-image-section3">
-
-              </div>
-              <h2>JOHN WICK</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A dolorem explicabo dolorum at beatae fugit reiciendis numquam nostrum, cupiditate debitis!</p>
-          
-          </div>
         </div>
 
        
@@ -386,5 +430,6 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script src="test.js"></script>
   </body>
 </html>
